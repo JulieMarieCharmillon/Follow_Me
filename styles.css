@@ -58,8 +58,12 @@ body{
     border-bottom-right-radius: 60%;
 }
 
-.flash{
-    background-color: white;
-    /* border-color: transparent; */
-    box-shadow: 0 0 0 0.2rem rgba(105, 109, 114, 0.25)
+@media (max-width: 500px) {
+    .buttons{
+        border-color: transparent;
+        color:transparent;
+        margin: 0.2rem;
+        padding: 5rem 1rem;
+        width: 40%;
+    }
 }

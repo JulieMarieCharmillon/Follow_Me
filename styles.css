@@ -67,4 +67,7 @@ body{
         padding: 3rem 1rem;
         width: 40%;
     }
+    .btn {
+        margin-bottom:2rem;
+    }
 }

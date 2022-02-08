@@ -58,7 +58,8 @@ body{
     border-bottom-right-radius: 60%;
 }
 
-@media (max-width: 500px) {
+@media screen 
+    and (max-device-width: 500px) {
     .buttons{
         border-color: transparent;
         color:transparent;
